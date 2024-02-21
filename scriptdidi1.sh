@@ -32,6 +32,9 @@ $ping_result
 # Mostrar los resultados utilizando la plantilla
 echo "$template"
 
+# Mostar la Información del sistema
+systeminfo 
+echo "----------------------------"
 
 # Diviertete con el ave bailando
 echo "Diviertete con el ave" 
