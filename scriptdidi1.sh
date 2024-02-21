@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Solicitar al usuario que ingrese una dirección IP
 read -p "Ingrese una dirección IP para hacer ping: " ip_address
 
@@ -30,3 +31,8 @@ $ping_result
 
 # Mostrar los resultados utilizando la plantilla
 echo "$template"
+
+
+# Diviertete con el ave bailando
+echo "Diviertete con el ave" 
+curl ascii.live/parrot
