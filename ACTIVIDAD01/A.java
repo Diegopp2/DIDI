@@ -24,3 +24,19 @@ public class A {
         this.bar = bar;
     }
 }
+public class A {
+    private String lorem;
+
+    public A(String lorem) {
+        this.lorem = lorem;
+    }
+
+    // Getter y setter para lorem (opcional)
+    public String getLorem() {
+        return lorem;
+    }
+
+    public void setLorem(String lorem) {
+        this.lorem = lorem;
+    }
+}
